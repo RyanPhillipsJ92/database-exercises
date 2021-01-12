@@ -1,7 +1,6 @@
 USE codeup_test_db;
 
-SELECT name, artist, release_date, genre
-AS 'All Albums before 1991'
+SELECT *
 FROM albums
 WHERE release_date > 1991;
 

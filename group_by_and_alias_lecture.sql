@@ -79,7 +79,8 @@ FROM employees
 WHERE first_name NOT LIKE '%a%'
 GROUP BY first_name;
 
-# This ^^ outputs each unique first name with an "a"
+
+# This ^^ outputs each unique first name without an "a"
 # This also will return the count of each of those names
 # Results: 500 - There are 500 unique first names that do not have an "a" in them
 

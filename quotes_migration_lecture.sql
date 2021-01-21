@@ -45,6 +45,7 @@ CREATE TABLE quote_topic (
                              FOREIGN KEY (quote_id) REFERENCES quotes(id),
                              FOREIGN KEY (topic_id) REFERENCES topics(id)
 );
+
 INSERT INTO quote_topic(quote_id, topic_id)
 VALUES (1, 2),
        (1, 3),
